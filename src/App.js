@@ -1,0 +1,22 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Journal from "./pages/Journal";
+import Profile from "./pages/Profile";
+import Login from "./pages/Login";
+import EditProfile from "./pages/EditProfile";
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/journal" element={<Journal />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/edit-profile" element={<EditProfile />} /> {/* ✅ Added */}
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
