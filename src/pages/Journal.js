@@ -4,17 +4,15 @@ import Navbar from "../components/Navbar.js";
 export default function Journal() {
   const [journal, setJournal] = useState([]);
 
-  // ✅ Load saved journal entries from localStorage
   useEffect(() => {
     const saved = JSON.parse(localStorage.getItem("journal")) || [];
     setJournal(saved);
   }, []);
 
-  // ✅ Delete an entry
   const deleteEntry = (id) => {
     const updated = journal.filter((entry) => entry.id !== id);
     setJournal(updated);
-    localStorage.setItem("journal", JSON.stringify(updated)); // keep storage updated
+    localStorage.setItem("journal", JSON.stringify(updated));
   };
 
   return (

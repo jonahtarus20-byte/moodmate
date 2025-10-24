@@ -13,7 +13,7 @@ function App() {
         <Route path="/journal" element={<Journal />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/edit-profile" element={<EditProfile />} /> {/* ✅ Added */}
+        <Route path="/edit-profile" element={<EditProfile />} />
       </Routes>
     </Router>
   );

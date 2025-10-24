@@ -9,17 +9,13 @@ const Login = () => {
   const handleLogin = async () => {
     try {
       const result = await signInWithPopup(auth, provider);
-      // The signed-in user info
       const user = result.user;
-
-      // Save user data in localStorage
       localStorage.setItem("user", JSON.stringify({
         name: user.displayName,
         email: user.email,
         photo: user.photoURL,
       }));
 
-      // Redirect to profile page
       navigate("/profile");
     } catch (error) {
       console.error("Login error:", error);

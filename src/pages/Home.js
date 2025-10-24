@@ -80,12 +80,6 @@ export default function Home() {
         ))}
       </div>
 
-      {mood && (
-        <div className="mt-6 text-xl">
-          You are feeling: <span className="font-semibold">{mood}</span>
-        </div>
-      )}
-
       {loading && (
         <p className="mt-4 text-gray-400 italic">Fetching some motivation...</p>
       )}
