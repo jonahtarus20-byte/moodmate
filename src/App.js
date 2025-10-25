@@ -7,7 +7,7 @@ import EditProfile from "./pages/EditProfile";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/moodmate">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/journal" element={<Journal />} />
