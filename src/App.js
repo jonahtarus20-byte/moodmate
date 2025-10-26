@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Journal from "./pages/Journal";
 import Profile from "./pages/Profile";
@@ -7,7 +7,7 @@ import EditProfile from "./pages/EditProfile";
 
 function App() {
   return (
-    <Router basename="/moodmate">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/journal" element={<Journal />} />
