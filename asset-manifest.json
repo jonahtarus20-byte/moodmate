@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/moodmate/static/css/main.63da11e9.css",
-    "main.js": "/moodmate/static/js/main.dd00867c.js",
+    "main.js": "/moodmate/static/js/main.7a808b44.js",
     "static/js/453.6b4963d0.chunk.js": "/moodmate/static/js/453.6b4963d0.chunk.js",
     "static/media/moodmate.jpg": "/moodmate/static/media/moodmate.bbae1c6ac8d39f7834fa.jpg",
     "index.html": "/moodmate/index.html",
     "main.63da11e9.css.map": "/moodmate/static/css/main.63da11e9.css.map",
-    "main.dd00867c.js.map": "/moodmate/static/js/main.dd00867c.js.map",
+    "main.7a808b44.js.map": "/moodmate/static/js/main.7a808b44.js.map",
     "453.6b4963d0.chunk.js.map": "/moodmate/static/js/453.6b4963d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63da11e9.css",
-    "static/js/main.dd00867c.js"
+    "static/js/main.7a808b44.js"
   ]
 }
