@@ -10,7 +10,7 @@ function App() {
   const Router = isGitHub ? HashRouter : BrowserRouter;
 
   return (
-    <Router basename={isGitHub ? "/moodmate" : "/"}>
+    <Router basename={isGitHub ? "/moodmate" : ""}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/journal" element={<Journal />} />
