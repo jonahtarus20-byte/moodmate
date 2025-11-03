@@ -23,7 +23,7 @@ csharp
 Copy code
 
 # Live Link
-(https://moodmate.vercel.app)
+https://moodmate22.netlify.app/
 
 ## Technologies used
 React  
